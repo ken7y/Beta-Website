@@ -19,3 +19,35 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+
+
+$(document).ready(function () {
+   changeElements();
+
+    $(window).resize(function() {
+        changeElements();
+    });
+});
+
+function changeElements(){
+     if ($(window).width() <= 640) {
+       $('div.sidenav').hide();
+       $('div.sidenavright').hide();
+    }else if ( ($(window).height() > 450 )){
+        $('div.sidenav').show();
+        $('div.sidenavright').show();
+
+    }
+
+    if ($(window).height() <= 450 ) {
+      $('div.sidenav').hide();
+      $('div.sidenavright').hide();
+
+    }else if($(window).width() > 640){
+        $('div.sidenav').show();
+        $('div.sidenavright').show();
+    }
+
+}

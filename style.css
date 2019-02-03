@@ -13,6 +13,21 @@ body{
   overflow-x: hidden;
 
 }
+
+.toppadding {
+  padding-top:12vw;
+}
+.largeText {
+   font-size: 48px;
+}
+
+.largetitle {
+   font-size: 36px;
+}
+.bottompadding{
+  padding-bottom: 18em;
+}
+
 #navbar {
   background-color: #333; /* Black background color */
   position: fixed; /* Make it stick/fixed */
@@ -22,7 +37,40 @@ body{
   z-index: 999;
   height: 30px;
 }
+.sidenav {
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  padding-left: 3vw;
+  bottom:0%;
+  padding-top: 18em;
+}
 
+.sidenavright{
+    height: auto%; /* Full-height: remove this if you want "auto" height */
+    width: 60px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    left: auto;
+    bottom:0%;
+    padding-top: 18em;
+}
+
+
+.sidewaystext{
+  writing-mode: vertical-rl;
+  font-size: 14px;
+  text-orientation: mixed;
+}
+
+.sideline{
+  padding-left: 200px;
+}
 .navbar{
   padding: :1rem;
 
