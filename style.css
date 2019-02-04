@@ -49,6 +49,22 @@ body{
   padding-top: 18em;
 }
 
+.imgpad{
+  padding-right: 1%;
+  padding-left: 1%;
+
+}
+
+
+
+
+.img-row{      display: flex;
+                align-items: center;
+}
+.img-responsive{flex-grow:1; width:auto; max-width:300; height:auto !important}
+
+
+
 .sidenavright{
     height: auto%; /* Full-height: remove this if you want "auto" height */
     width: 60px; /* Set the width of the sidebar */
