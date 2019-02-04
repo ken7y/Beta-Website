@@ -50,16 +50,21 @@ body{
 }
 
 .imgpad{
-  padding-right: 1%;
-  padding-left: 1%;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 20%;
 
 }
 
 
 
 
-.img-row{      display: flex;
-                align-items: center;
+.img-row{
+  display: block;
+  margin: auto;
+
+  text-align: center;
+
 }
 .img-responsive{flex-grow:1; width:auto; max-width:300; height:auto !important}
 
