@@ -13,6 +13,28 @@ body{
   overflow-x: hidden;
 
 }
+.carousel {
+  margin: 0 auto;
+}
+.carousel-inner {
+   margin-bottom:50px;
+}
+.carousel-indicators {
+  bottom:425px;
+
+  background-color: #0000ff;
+}
+.carousel-indicators .active {
+
+    background-color: #ffff99;
+}
+.maxsizfourty{
+  max-height: 900px;
+}
+
+.smalltoppadding {
+  padding-top:6vw;
+}
 
 .toppadding {
   padding-top:12vw;
