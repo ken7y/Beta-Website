@@ -12,7 +12,12 @@ html,body{
 body{
   overflow-x: hidden;
   background-color:#1F2833;
-
+}
+.devicon {
+  max-width: 50px;
+}
+.devicon path {
+  fill: #C5C6C7;
 }
 .footer {
         height: 70px;
@@ -78,7 +83,7 @@ body{
 }
 .carousel-indicators .active {
 
-    background-color: #66FCF1;
+    background-color: #45A29E;
 }
 .maxsizfourty{
   max-height: 900px;
