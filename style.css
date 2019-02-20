@@ -9,6 +9,17 @@ html,body{
   color: #222;
 
 }
+
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.itemz {
+  order: <integer>; /* default is 0 */
+}
 body{
   overflow-x: hidden;
   background-color:#1F2833;
