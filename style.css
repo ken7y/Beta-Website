@@ -10,7 +10,6 @@ html,body{
 
 }
 
-
 .container {
   display: flex; /* or inline-flex */
   flex-wrap: wrap;
@@ -50,6 +49,10 @@ body{
 }
 .blue2{
   color: #45A29E;
+}
+.fa-linkedin-in,.fa-github,.fa-envelope,.fa-instagram{
+  color: #66FCF1;
+
 }
 
 .whitecol{

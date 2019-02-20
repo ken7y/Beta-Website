@@ -19,7 +19,9 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-
+$('.carousel').carousel({
+    interval: false
+});
 
 
 
