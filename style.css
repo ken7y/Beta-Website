@@ -143,6 +143,9 @@ text-shadow: 4px 3px 0px #0B0C10;
 .lesserbottompadding{
   padding-bottom: 16em;
 }
+.evenlesserbottompadding{
+  padding-bottom: 12em;
+}
 
 .minheight{
   min-width: 120px;
