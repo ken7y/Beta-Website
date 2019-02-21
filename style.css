@@ -54,6 +54,12 @@ body{
   color: #66FCF1;
 
 }
+.carousel-control-prev{
+  left:-80px;
+}
+.carousel-control-next{
+  right:-80px;
+}
 
 .whitecol{
   color: #ffffff;
