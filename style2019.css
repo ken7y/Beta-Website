@@ -16,9 +16,11 @@ html,body{
 }
 
 .paddingSideClass{padding: 0 75px;}
+
 @media screen and (max-width: 992px) {
 .paddingSideClass{padding: 0 1em;}
 }
+
 .paddingHeightClass{padding: 20px 0px;}
 
 .anotherContainer{
@@ -35,10 +37,25 @@ html,body{
   height: 50%;
   flex-direction: column;
 }
+.anotherContainerButRows{
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  flex-direction: row;
+}
+
+.iconWidth{width: 70%}
+
+@media screen and (max-width: 992px) {
+.iconWidth{width: 90%}
+}
+
 
 .flex-start{ justify-content: flex-start;}
 .flex-end{justify-content: flex-end;}
 .flex-center{justify-content: center; align-self:center;}
+.flex-spacebetween-centered{justify-content: space-between;; align-self:center;}
+
 .titleName{
   width: 100%;
   font-size: 4em;
@@ -47,6 +64,16 @@ html,body{
   width: 100%;
   font-size: 2.2em;
 }
+.deviconSize{
+  width: 4em;
+  height: 4em;
+  margin: 10px;
+  }
+
+.textUnderDevicon{
+  text-align: center;
+}
+
 
 .para{
   font-size: 1.4em;
