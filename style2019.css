@@ -15,6 +15,8 @@ html,body{
   justify-content: space-evenly;
 }
 
+.contactSection{height: 50%}
+
 .paddingSideClass{padding: 0 75px;}
 
 @media screen and (max-width: 992px) {
@@ -27,20 +29,15 @@ html,body{
   display: flex;
   flex-wrap: wrap;
   height: 50%;
-  flex-direction: column;
-
-}
-
-.anotherContainer{
-  display: flex;
-  flex-wrap: wrap;
-  height: 50%;
+  width: 100%;
   flex-direction: column;
 }
+
 .anotherContainerButRows{
   display: flex;
   flex-wrap: wrap;
   height: 50%;
+  width: 100%;
   flex-direction: row;
 }
 
@@ -54,7 +51,7 @@ html,body{
 .flex-start{ justify-content: flex-start;}
 .flex-end{justify-content: flex-end;}
 .flex-center{justify-content: center; align-self:center;}
-.flex-spacebetween-centered{justify-content: space-between;; align-self:center;}
+.flex-spacebetween-centered{justify-content: space-evenly; align-self:center;}
 
 .titleName{
   width: 100%;
@@ -63,11 +60,12 @@ html,body{
 .mediumTitleName{
   width: 100%;
   font-size: 2.2em;
+  text-align: center;
 }
 .deviconSize{
   width: 4em;
   height: 4em;
-  margin: 10px;
+  margin: 15px;
   }
 
 .textUnderDevicon{
@@ -87,7 +85,7 @@ html,body{
 
 .hrClass{
   border-top: 2px solid #ffffff;
-  width: 95%;
+  width: 60%;
   margin-bottom: 1rem;
 }
 .fa-linkedin-in,.fa-github,.fa-envelope,.fa-file-pdf{
