@@ -14,7 +14,13 @@ html,body{
   flex-direction: column;
   justify-content: space-evenly;
 }
+.heightThird{
+  height: 33% !important;
+}
 
+.heightDouble{
+  height: 200%;
+}
 .contactSection{height: 50%}
 
 .paddingSideClass{padding: 0 75px;}
@@ -25,6 +31,21 @@ html,body{
 
 .paddingHeightClass{padding: 20px 0px;}
 
+.alignFlexEnd{
+  align-self: flex-end;
+}
+
+.alignContentCenter{
+  align-content: center;
+}
+
+.alignContentStart{
+  align-content: flex-start;
+}
+
+.noWrap{
+  flex-wrap: nowrap
+}
 .anotherContainer{
   display: flex;
   flex-wrap: wrap;
@@ -61,6 +82,10 @@ html,body{
   width: 100%;
   font-size: 2.2em;
   text-align: center;
+}
+
+.alignTitleLeft{
+  text-align: left;
 }
 .deviconSize{
   width: 4em;
