@@ -14,13 +14,30 @@ html,body{
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+
 .heightThird{
   height: 33% !important;
 }
+img {max-width:100%;}
 
 .heightDouble{
-  height: 200%;
+  height: 225%;
 }
+@media screen and (max-width: 1361px) {
+  .heightDouble{height: 235%;}
+}
+@media screen and (max-width: 542px) {
+  .heightDouble{height: 275%;}
+}
+  
+
+
+.heightAuto{
+  height: auto !important;
+}
+
+
 .contactSection{height: 50%}
 
 .paddingSideClass{padding: 0 75px;}
@@ -74,6 +91,13 @@ html,body{
 .flex-center{justify-content: center; align-self:center;}
 .flex-spacebetween-centered{justify-content: space-evenly; align-self:center;}
 
+
+@media screen and (min-width: 700px) {
+  .imageDisappearAtLarge {
+    max-width: 700px;  
+  }
+}
+
 .titleName{
   width: 100%;
   font-size: 4em;
@@ -81,6 +105,11 @@ html,body{
 .mediumTitleName{
   width: 100%;
   font-size: 2.2em;
+  text-align: center;
+}
+.smallTitleName{
+  width: 100%;
+  font-size: 1.8em;
   text-align: center;
 }
 
@@ -101,7 +130,11 @@ html,body{
 .para{
   font-size: 1.4em;
   flex-wrap: wrap;
+}
 
+.smallPara{
+  font-size: 1.1em;
+  flex-wrap: wrap;
 }
 .paraWidth{width: 60%;}
 @media screen and (max-width: 992px) {
