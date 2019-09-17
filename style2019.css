@@ -24,13 +24,7 @@ img {max-width:100%;}
 .heightDouble{
   height: 225%;
 }
-@media screen and (max-width: 1361px) {
-  .heightDouble{height: 235%;}
-}
-@media screen and (max-width: 542px) {
-  .heightDouble{height: 275%;}
-}
-  
+
 
 
 .heightAuto{
