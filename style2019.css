@@ -1,13 +1,12 @@
-
-
-html,body{
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0px auto;
 }
 
 
-.flex-container{
+.flex-container {
   display: flex;
   flex-wrap: wrap;
   height: 100%;
@@ -16,48 +15,66 @@ html,body{
 }
 
 
-.heightThird{
+.flexRow {
+  flex-direction: row !important;
+}
+
+
+.heightThird {
   height: 33% !important;
 }
-img {max-width:100%;}
 
-.heightDouble{
+img {
+  max-width: 100%;
+}
+
+.heightDouble {
   height: 225%;
 }
 
 
 
-.heightAuto{
+.heightAuto {
   height: auto !important;
 }
 
 
-.contactSection{height: 50%}
-
-.paddingSideClass{padding: 0 75px;}
-
-@media screen and (max-width: 992px) {
-.paddingSideClass{padding: 0 1em;}
+.contactSection {
+  height: 50%
 }
 
-.paddingHeightClass{padding: 20px 0px;}
+.paddingSideClass {
+  padding: 0 75px;
+}
 
-.alignFlexEnd{
+@media screen and (max-width: 992px) {
+  .paddingSideClass {
+    padding: 0 1em;
+  }
+}
+
+
+.paddingHeightClass {
+  padding: 20px 0px;
+}
+
+.alignFlexEnd {
   align-self: flex-end;
 }
 
-.alignContentCenter{
+.alignContentCenter {
   align-content: center;
 }
 
-.alignContentStart{
+.alignContentStart {
   align-content: flex-start;
 }
 
-.noWrap{
+.noWrap {
   flex-wrap: nowrap
 }
-.anotherContainer{
+
+.anotherContainer {
   display: flex;
   flex-wrap: wrap;
   height: 50%;
@@ -65,7 +82,7 @@ img {max-width:100%;}
   flex-direction: column;
 }
 
-.anotherContainerButRows{
+.anotherContainerButRows {
   display: flex;
   flex-wrap: wrap;
   height: 50%;
@@ -73,74 +90,154 @@ img {max-width:100%;}
   flex-direction: row;
 }
 
-.iconWidth{width: 70%}
+.iconWidth {
+  width: 70%
+}
 
 @media screen and (max-width: 992px) {
-.iconWidth{width: 90%}
+  .iconWidth {
+    width: 90%
+  }
 }
 
 
-.flex-start{ justify-content: flex-start;}
-.flex-end{justify-content: flex-end;}
-.flex-center{justify-content: center; align-self:center;}
-.flex-spacebetween-centered{justify-content: space-evenly; align-self:center;}
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-center {
+  justify-content: center;
+  align-self: center;
+}
+
+.flex-spacebetween-centered {
+  justify-content: space-evenly;
+  align-self: center;
+}
 
 
 @media screen and (min-width: 700px) {
   .imageDisappearAtLarge {
-    max-width: 700px;  
+    max-width: 700px;
   }
 }
 
-.titleName{
+.titleName {
   width: 100%;
   font-size: 4em;
 }
-.mediumTitleName{
+
+.mediumTitleName {
   width: 100%;
   font-size: 2.2em;
   text-align: center;
 }
-.smallTitleName{
+
+.smallTitleName {
   width: 100%;
   font-size: 1.8em;
   text-align: center;
 }
 
-.alignTitleLeft{
+.alignTitleLeft {
   text-align: left;
 }
-.deviconSize{
+
+.deviconSize {
   width: 4em;
   height: 4em;
   margin: 15px;
-  }
+}
 
-.textUnderDevicon{
+.textUnderDevicon {
   text-align: center;
 }
 
 
-.para{
+.para {
   font-size: 1.4em;
   flex-wrap: wrap;
 }
 
-.smallPara{
+.smallPara {
   font-size: 1.1em;
   flex-wrap: wrap;
 }
-.paraWidth{width: 60%;}
-@media screen and (max-width: 992px) {
-  .paraWidth{width: 80%;}
+
+.paraWidth {
+  width: 60%;
 }
 
-.hrClass{
+@media screen and (max-width: 992px) {
+  .paraWidth {
+    width: 80%;
+  }
+}
+
+.hrClass {
   border-top: 2px solid #ffffff;
   width: 60%;
   margin-bottom: 1rem;
 }
-.fa-linkedin-in,.fa-github,.fa-envelope,.fa-file-pdf{
+
+.fa-linkedin-in,
+.fa-github,
+.fa-envelope,
+.fa-file-pdf {
   color: #66FCF1;
 
+}
+
+
+/* entire container, keeps perspective */
+.flip-container {
+  margin-top: 25px;
+  perspective: 1000px;
+  text-align: center;
+  font-size: 1.3em;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 280px;
+	height: 280px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.round-corner {
+  border-radius: 15px 15px 15px 15px;
 }
