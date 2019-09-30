@@ -1,6 +1,6 @@
 html,
 body {
-  min-height: 100%;
+  height: 100%;
   width: 100%;
   margin: 0px auto;
 }
@@ -242,4 +242,8 @@ img {
 
 .round-corner {
   border-radius: 15px 15px 15px 15px;
+}
+
+.btnwidth{
+  width: 128px !important;
 }
