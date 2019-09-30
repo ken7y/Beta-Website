@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   margin: 0px auto;
 }
@@ -9,7 +9,7 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
+  min-height: 100%;
   flex-direction: column;
   justify-content: space-evenly;
 }
@@ -40,7 +40,7 @@ img {
 
 
 .contactSection {
-  height: 50%
+  min-height: 50%
 }
 
 .paddingSideClass {
@@ -77,7 +77,7 @@ img {
 .anotherContainer {
   display: flex;
   flex-wrap: wrap;
-  height: 50%;
+  min-height: 50%;
   width: 100%;
   flex-direction: column;
 }
@@ -85,7 +85,7 @@ img {
 .anotherContainerButRows {
   display: flex;
   flex-wrap: wrap;
-  height: 50%;
+  min-height: 50%;
   width: 100%;
   flex-direction: row;
 }
