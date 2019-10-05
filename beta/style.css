@@ -1,0 +1,7 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
