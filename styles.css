@@ -1,0 +1,23 @@
+body{
+    /* background-color:#1F2833;  */
+    margin: 0px;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.IconContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 12px;
+  align-items: center;
+}
+
+.IconPadding {
+  padding-bottom: 8px;
+  font-size: 42px;
+}
