@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family:'Poppins',sans-serif;
+  color: #222;
+
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.itemz {
+  order: <integer>; /* default is 0 */
+}
+body{
+  overflow-x: hidden;
+  background-color:#1F2833;
+}
+.devicon {
+  max-width: 50px;
+}
+.devicon path {
+  fill: #C5C6C7;
+}
+.footer {
+        height: 70px;
+    }
+.black1{
+      color: #0B0C10;
+  }
+.grey1{
+  color: #C5C6C7;
+}
+.grey2{
+  color: #1F2833;
+}
+.white1{
+  color: #ffffff;
+}
+.blue1{
+  color: #66FCF1;
+}
+.blue2{
+  color: #45A29E;
+}
+.fa-linkedin-in,.fa-github,.fa-envelope,.fa-file-pdf{
+  color: #66FCF1;
+
+}
+.carousel-control-prev{
+  left:-80px;
+}
+.carousel-control-next{
+  right:-80px;
+}
+
+.whitecol{
+  color: #ffffff;
+}
+.demotext {
+color: #ffffff;
+
+text-shadow: 4px 3px 0px #0B0C10;
+
+
+}
+
+.btn-outline-secondary {
+  /* background-color: #8064A2; */
+  border-color: #66FCF1 !important;
+}
+.btn-outline-third {
+  /* background-color: #8064A2; */
+  border-color: #45A29E !important;
+}
+.btn-outline-third:hover{
+  background-color: #45A29E;
+}
+
+
+.custom {
+    width: 128px !important;
+    padding:10px;
+}
+.carousel {
+  margin: 0 auto;
+}
+.carousel-indicators > li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+}
+.carousel-inner {
+   margin-bottom:50px;
+}
+.carousel-indicators {
+  bottom:200px;
+
+  background-color: #1F2833;
+}
+.textshadow{
+  text-shadow: 115px 151px red;
+}
+.carousel-indicators .active {
+
+    background-color: #45A29E;
+}
+.maxsizfourty{
+  max-height: 900px;
+}
+
+.smalltoppadding {
+  padding-top:6vw;
+}
+.medtoppadding {
+  padding-top:300px;
+}
+
+.toppadding {
+  padding-top:12vw;
+}
+.biggertoppadding {
+  padding-bottom: 16em;
+}
+.largeText {
+   font-size: 48px;
+}
+
+.largetitle {
+   font-size: 36px;
+}
+.bottompadding{
+  padding-bottom: 18em;
+}
+
+.lesserbottompadding{
+  padding-bottom: 16em;
+}
+.evenlesserbottompadding{
+  padding-bottom: 12em;
+}
+
+.minheight{
+  min-width: 120px;
+  min-height: 80px;
+}
+
+#navbar {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.4s; /* Transition effect when sliding down (and up) */
+  z-index: 999;
+  height: 30px;
+}
+.sidenav {
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  padding-left: 2vw;
+  bottom:0%;
+  padding-top: 18em;
+}
+
+.imgpad{
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 20%;
+}
+
+
+
+
+.img-row{
+  display: block;
+  margin: auto;
+
+  text-align: center;
+
+}
+.img-responsive{flex-grow:1; width:auto; max-width:300; height:auto !important}
+
+
+
+.sidenavright{
+    height: auto%; /* Full-height: remove this if you want "auto" height */
+    width: 60px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    left: auto;
+    bottom:0%;
+    padding-top: 18em;
+}
+
+
+.sidewaystext{
+  writing-mode: vertical-rl;
+  font-size: 14px;
+  text-orientation: mixed;
+}
+
+.sideline{
+  padding-left: 200px;
+}
+.navbar{
+  padding: :1rem;
+
+}
+.navbar-right {
+  float: right;
+  padding: :1rem;
+}
+/* .navbar-nav li{
+  padding-right: 20px;
+} */
+.nav-link{
+  font-size: 1.1em !important;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.btn-primary{
+  background-color: #7ac3ff;
+  border:1px solid #4a6eff
+}
+
+.btn-primary:hover{
+  background-color: #4a6eff;
+  border:1px solid #4a6eff
+}
+
+.jumbotron{
+  padding: 1rem;
+  border-radius: 0;
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr{
+  border-top:2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-code{
+  color: #e54d26;
+}
+.fa-bold{
+  color: #563d7c
+}
+
+.fa-css3{
+  color:#2163af;
+}
+
+.gif{max-width: 100%}
+
+
+.fa-code, .fa-bold, .fa-css3{
+  font-size: 4em;
+  margin: 1rem;
+}
+
+
+.fun{
+  width: 100%;
+  margin-bottom:2rem;
+}
+
+
+.social a{
+  font-size: 4.5em;
+  padding: 2rem;
+
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+
+  }
+  }
+@media (max-width: 768px) {
+  .carousel-caption{
+    top:45%;
+  }
+
+  .carousel-caption h1{
+    font-size:350%;
+
+  }
+
+  .carousel-caption h3{
+    font-size: 140%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: .2rem;
+  }
+.carousel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+
+.social a{
+  font-size: 2.5em;
+  padding: 1.2rem;
+
+}
+.display-4{
+  font-size: 250%;
+}
+
+
+}
+@media (max-width: 576px) {
+
+  .carousel-caption{
+    top:40%;
+  }
+
+  .carousel-caption h1{
+    font-size:250%;
+
+  }
+
+  .carousel-caption h3{
+    font-size: 110%;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: .2rem;
+  }
+.carousel-caption .btn{
+  font-size: 90%;
+  padding: 4px 8px;
+}
+
+.social a{
+  font-size: 2em;
+  padding: .7rem;
+
+}
+.display-4{
+  font-size: 160%;
+}
+
+
+.carousel-indicators{
+  display: none;
+}
+
+
+
+
+
+
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
