@@ -1,7 +1,6 @@
 body{
-    /* background-color:#1F2833;  */
     margin: 0px;
-    font-family: 'Roboto'
+    font-family: 'Roboto';
   }
 
 .container {
@@ -16,9 +15,41 @@ body{
   flex-direction: column;
   padding: 0px 12px;
   align-items: center;
+  color:#374785;
 }
 
 .IconPadding {
   padding-bottom: 8px;
   font-size: 42px;
+}
+
+.CompetitionText { 
+  font-size: 28px;
+  color: #F8E9A1;
+}
+
+.CompetitionTitle { 
+  font-size: 48px;
+  padding-top: 40px;
+  color: #F8E9A1;
+}
+
+.bgYellow { 
+  background-color: #F8E9A1;
+}
+
+.bgRed { 
+  background-color: #F76C6C;
+}
+
+.bgLightBlue { 
+  background-color: #A8D0EF;
+}
+
+.bgDarkBlue {
+  background-color: #374785;
+}
+
+.bgDarkestBlue { 
+  background-color: #24305E
 }

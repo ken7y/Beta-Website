@@ -8,15 +8,15 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
-  
+    <script src="script.js"></script>
 </head>
 
  <body>
 
-<div class="container" style="background-color: grey; justify-content: center;">
+<div class="container bgDarkBlue" style="justify-content: center;">
     <div style="margin-left: 50px;">
-    <p style="font-size: 56px;">Hello Im Ken</p>
-    <p style="width: 75%; font-size: 24px;">I'm a Software Engineering Student currently in my final year at UNSW.
+    <p style="font-size: 56px; color: #F8E9A1">Hello Im Ken</p>
+    <p style="width: 75%; font-size: 24px; color: #F8E9A1">I'm a Software Engineering Student currently in my final year at UNSW.
         Check out some of my projects below. 
         Currently working at WooliesX as an Associate Software Engineer!
         <br>
@@ -28,9 +28,9 @@
 
 
 
-<div class="container" style="background-color: lightblue;">
+<div class="container bgLightBlue">
     
-    <div style="text-align: center; padding-top: 40px;">
+    <div style="text-align: center; padding-top: 40px; color: #374785;">
     <p style="font-size: 36px;">What I've used for uni and side projects</p>
 
     <div style="display: flex; justify-content: center;">
@@ -56,7 +56,7 @@
         </div>
 
         <div class="IconContainer"> 
-        <img src="img/haskell.png" height="42" width="42" style="padding-bottom: 8px; height: 50px;">
+        <img src="img/haskellps.png" height="42" width="42" style="padding-bottom: 8px; height: 50px;">
         <span>Haskell</span>
         </div>
 
@@ -66,7 +66,7 @@
 
 
     <div style="text-align: center;">
-    <p style="font-size: 36px;">What I use for work</p>
+    <p style="font-size: 36px; color: #374785;">What I use for work</p>
     <div style="display: flex; justify-content: center;">
 
         <div class="IconContainer"> 
@@ -96,7 +96,7 @@
 
 
     <div style="text-align: center;">
-    <p style="font-size: 36px;">What I use for my thesis project</p>
+    <p style="font-size: 36px; color: #374785;">What I use for my thesis project</p>
 
     <div style="display: flex; justify-content: center;">
 
@@ -128,15 +128,15 @@
 
 
 
-<div class="container" style="background-color: lightgreen; 
+<div class="container bgDarkestBlue" style="
 align-items: center;">
-    <p style="font-size: 36px;  padding-top: 40px;">Competition and prizes</p>
+    <p class="CompetitionTitle" >Competition and prizes</p>
     <div style="text-align: center; font-size: 24px; display: flex; flex-direction: column;">
-    <p>New Futures Hackathon for Disaster Resilience (May 2019) - 2nd place</p>
-    <p>Accenture Blockchain Hackathon (April 2019) - 2nd place</p>
-    <p>NASA Space Apps Hackathon (Oct 2018) - 2nd place</p>
-    <p>Facebook hackathon(2018)</p>
-    <p>Macquarie Bank Second Year Software Engineering prize</p>
+    <p class="CompetitionText">New Futures Hackathon for Disaster Resilience (May 2019) - 2nd place</p>
+    <p class="CompetitionText">Accenture Blockchain Hackathon (April 2019) - 2nd place</p>
+    <p class="CompetitionText">NASA Space Apps Hackathon (Oct 2018) - 2nd place</p>
+    <p class="CompetitionText">Facebook hackathon(2018)</p>
+    <p class="CompetitionText">Macquarie Bank Second Year Software Engineering prize</p>
     </div>
 </div>
 
@@ -146,15 +146,15 @@ align-items: center;">
 </div>
 
 
-<div class="container" style="background-color: lightpink; justify-content: center;
+<div class="container bgRed" style="justify-content: center;
 align-items: center;">
-    <p style="font-size: 56px; text-align: center;">Lets get in touch</p>
+    <p style="font-size: 56px; text-align: center; color: white;">Lets get in touch</p>
 
-    <p style="font-size: 24px; text-align: center;">If you liked some of my projects and the work I've done so far, please feel free to contact me.</p>
+    <p style="font-size: 24px; text-align: center; color: white;">If you liked some of my projects and the work I've done so far, please feel free to contact me.</p>
 
 
     <div style="display: flex;">
-
+        <a href="resume2020.pdf">
         <div class="ui vertical animated button" tabindex="0">
             <div class="visible content">
             <span style="font-size: 22px;">Resume</span>
@@ -163,7 +163,9 @@ align-items: center;">
             <i class="file alternate icon"></i>
             </div>
         </div>
+        </a>
 
+        <a id="myLink" onclick="toggleEmail();">
         <div class="ui vertical animated button" tabindex="0">
             <div class="visible content">
                 <span style="font-size: 22px;">
@@ -173,8 +175,12 @@ align-items: center;">
                 <i class="envelope open icon"></i>
             </div>
         </div>
+        </a>
+
     </div>
-    
+    <div id="emailId" style="display: none; padding-top: 48px; font-size: 24px;">
+        <span>Email me @ kenwang2227@gmail.com</span>
+    </div>
 </div>
 
 
