@@ -6,7 +6,7 @@ body{
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 95vh;
 }
 
 
@@ -15,7 +15,7 @@ body{
   flex-direction: column;
   padding: 0px 12px;
   align-items: center;
-  color:#374785;
+  color: #C5C6C7;
 }
 
 .IconPadding {
@@ -24,14 +24,12 @@ body{
 }
 
 .CompetitionText { 
-  font-size: 28px;
-  color: #F8E9A1;
+  font-size: 24px;
 }
 
 .CompetitionTitle { 
   font-size: 48px;
   padding-top: 40px;
-  color: #F8E9A1;
 }
 
 .bgYellow { 
@@ -52,4 +50,30 @@ body{
 
 .bgDarkestBlue { 
   background-color: #24305E
+}
+
+
+.grey1{
+  color: #C5C6C7;
+}
+.grey2{
+  color: #1F2833;
+}
+.white1{
+  color: #ffffff;
+}
+.blue1{
+  color: #66FCF1;
+}
+.blue2{
+  color: #45A29E;
+}
+.bgNavy { 
+  background-color:#1f2833
+}
+
+.hrSettings {
+  width: 40%;
+  margin-top: -24px;
+  margin-bottom: 24px;
 }
