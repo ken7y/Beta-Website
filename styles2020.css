@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto';
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+}
+
+
+.titleText { 
+  font-size: 56px;
+}
+@media only screen and (min-width: 768px) {
+  .titleText {
+    font-size: 70px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .titleText {
+    font-size: 70px;
+  }
+}
+
+.subText { 
+  font-size: 24px;
+  width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .subText { 
+    font-size: 24px;
+    width: 75%;
+  }
+}
+@media(min-width: 1024px) {
+  .subText { 
+    font-size: 28px;
+    width: 75%;
+  }
+}
+
+.titlePadding { 
+  margin: 0 20px;
+}
+@media(min-width: 426px) {
+  .titlePadding { 
+    margin: 0 40px;
+  }
+}
+
+.smallContainer { 
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+}
+
+@media(max-width: 426px) {
+  .smallContainer { 
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+  }
+}
+
+.bigContainer { 
+  display: flex;
+  flex-direction: column;
+  height: 240vh;
+}
+
+@media(max-width: 426px) {
+  .bigContainer { 
+    display: flex;
+    flex-direction: column;
+    height: 380vh;
+  }
+}
+
+
+.CompetitionText { 
+  font-size: 24px;
+}
+.CompetitionTitle { 
+  font-size: 48px;
+  padding-top: 40px;
+
+}
+@media(max-width: 426px) {
+  .CompetitionText { 
+    font-size: 20px;
+    padding: 0 16px;
+  }
+  .CompetitionTitle { 
+    font-size: 36px;
+    padding-top: 40px;
+    text-align: center;
+  }
+}
+
+
+
+
+.IconContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 12px;
+  align-items: center;
+  color: #C5C6C7;
+}
+
+.IconPadding {
+  padding-bottom: 8px;
+  font-size: 42px;
+}
+
+
+
+.bgYellow { 
+  background-color: #F8E9A1;
+}
+
+.bgRed { 
+  background-color: #F76C6C;
+}
+
+.bgLightBlue { 
+  background-color: #A8D0EF;
+}
+
+.bgDarkBlue {
+  background-color: #374785;
+}
+
+.bgDarkestBlue { 
+  background-color: #24305E
+}
+
+
+.grey1{
+  color: #C5C6C7;
+}
+.grey2{
+  color: #1F2833;
+}
+.white1{
+  color: #ffffff;
+}
+.blue1{
+  color: #66FCF1;
+}
+.blue2{
+  color: #45A29E;
+}
+.bgNavy { 
+  background-color:#1f2833
+}
+
+.hrSettings {
+  width: 40%;
+  margin-top: -24px;
+  margin-bottom: 24px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.bigresponsive { 
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
