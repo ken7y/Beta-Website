@@ -41,7 +41,7 @@ body{
 @media (min-width: 768px) and (max-width: 1023px) {
   .subText { 
     font-size: 24px;
-    width: 75%;
+    width: 70%;
   }
 }
 @media(min-width: 1024px) {
@@ -56,35 +56,52 @@ body{
 }
 @media(min-width: 426px) {
   .titlePadding { 
-    margin: 0 40px;
+    margin: 0 60px;
   }
 }
 
 .smallContainer { 
   display: flex;
   flex-direction: column;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 @media(max-width: 426px) {
   .smallContainer { 
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    min-height: 90vh;
   }
 }
+
+.xxsmallContainer { 
+  display: flex;
+  flex-direction: column;
+  min-height: 65vh;
+}
+
+@media(max-width: 426px) {
+  .xxsmallContainer { 
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+  }
+}
+
+
+
 
 .bigContainer { 
   display: flex;
   flex-direction: column;
-  min-height: 280vh;
+  /* min-height: 140vh; */
 }
 
 @media(max-width: 426px) {
   .bigContainer { 
     display: flex;
     flex-direction: column;
-    height: 380vh;
+    /* min-height: 380vh; */
   }
 }
 
@@ -117,7 +134,7 @@ body{
   flex-direction: column;
   padding: 0px 12px;
   align-items: center;
-  color: #C5C6C7;
+  color: #d5d6d2;
 }
 
 .IconPadding {
@@ -147,6 +164,67 @@ body{
   background-color: #24305E
 }
 
+.bgteal { 
+  background-color: #2B616D;
+}
+
+.bgarctic {
+  background-color: #B2DBD5;
+
+}
+
+.bgbrick{ 
+  background-color: #FA8D62;
+}
+
+.bgwhite{
+  background-color: #ffffff;
+}
+
+
+.back { 
+  color: #2F2E33;
+}
+.gray {
+  color: #D5D6D2;
+
+}
+.cobalt{ 
+  color: #5171D3;
+}
+
+.bgback { 
+  background-color: #2F2E33;
+}
+.bggray {
+  background-color: #D5D6D2;
+
+}
+.bgcobalt{ 
+  background-color: #3A5199;
+;
+}
+
+
+
+
+.teal { 
+  color: #2B616D;
+}
+
+.arctic {
+  color: #B2DBD5;
+
+}
+
+.brick{ 
+  color: #FA8D62;
+}
+
+.white{
+  color: #ffffff;
+}
+
 
 .grey1{
   color: #C5C6C7;
@@ -163,7 +241,7 @@ body{
 .blue2{
   color: #45A29E;
 }
-.bgNavy { 
+.bgNavy1 { 
   background-color:#1f2833
 }
 
@@ -186,23 +264,43 @@ body{
 }
 
 
-
 .projectsContainer { 
-  padding-top: 36px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex; 
-  margin: 0 24px; 
+  margin: 0 20px; 
   flex-direction: row; 
   align-items: center;
 
 }
-
 @media(max-width: 632px) {
   .projectsContainer { 
-    padding-top: 36px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex; 
     margin: 0 24px; 
     flex-direction: column; 
     align-items: center;
   
   }
+}
+
+.contactText {
+  margin: 0 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+@media(max-width: 768px) {
+  .contactText {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+
+  }
+}
+
+
+.projText{ 
+  font-size: 18px;
+  padding:0 24px;
 }
